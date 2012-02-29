@@ -24,7 +24,7 @@ The two targets provided for the monitoring service are:
 * Activate pg-monitor from the plugin page
 * Refresh your permalink settings
 
-Use either www.yourdomain.com/monitor.htm or www.yourdomain.com/monitorWP.htm when you set up your monitoring service
+Use either www.example.com/monitor.htm or www.example.com/monitorWP.htm when you set up your monitoring service
 
 == Frequently Asked Questions ==
 
