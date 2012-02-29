@@ -24,19 +24,26 @@ The two targets provided for the monitoring service are:
 * Activate pg-monitor from the plugin page
 * Refresh your permalink settings
 
+Use either www.yourdomain.com/monitor.htm or www.yourdomain.com/monitorWP.htm when you set up your monitoring service
+
 == Frequently Asked Questions ==
 
-= Why do I get a page not found error when seeking www.example.com/monitorWP.htm =
+= Why do I get a page not found error =
 
 Depending on your configuration you may need to visit the Permalink settings page and simply click save. This will refresh the permalink settings and the page will be found.
 You may have to repeat this process if you disable or delete this plugin.
-A redirect will be added to .htaccess that is removed when the plugin is deleted.
 
 = Can I monitor WordPress and my host separately =
 
 There are two virtual target files supplied that will appear as if they are in the root of your website (although there is no physical file there)
+
 * monitor.htm  This file will be available even if WordPress is down (it does require PHP to be working)
 * monitorWP.htm  This file uses much of the WordPress infrastructure and will return failure if there is a database connectivity issue (unlike the first file)
+
+= Where do I see my monitoring results =
+
+This plugin does not perform monitoring of your site - you need a monitoring service for this. You configure the external monitoring service to point to one of the two virtual files that this plugin creates.
+
 
 == Screenshots ==
 
