@@ -3,12 +3,14 @@
 Plugin Name: PG Monitor
 Plugin URI: http://www.peoplesgeek.com/plugins/pg-monitor/
 Description: This plugin provides a virtual target for your monitoring services that does not invoke other plugins (specifically avoiding the google analytics plugins so that your statistics are not skewed by monitoring calls)<br/>The two targets provided for the monitoring service are:<br/><a href="/monitor.htm">monitor.htm</a> - via .htaccess and does not use WordPress (but does use PHP)<br/><a href="/monitorWP.htm">monitorWP.htm</a> - via WP and so tests the Database etc is working<br/>
-Author: Brian Reddick
-Version: 1.0.0
+Author: PeoplesGeek
+Version: 1.1.0
 Author URI: http://www.peoplesgeek.com
 
 with the assistance of an article in http://wordpress.stackexchange.com/questions/9870/how-do-you-create-a-virtual-page-in-wordpress
 */
+
+load_plugin_textdomain( 'pgeek-mon', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 
 add_action( 'init', 'pgeek_mon_init_external' );
 function pgeek_mon_init_external()
@@ -49,6 +51,7 @@ function pgeek_mon_parse_request( &$wp )
 register_activation_hook(__FILE__, 'pgeek_mon_activation');
 function pgeek_mon_activation(){
 	pgeek_mon_init_external();
+	pgeek_mon_init_internal();
 	flush_rewrite_rules(TRUE);
 }
 

@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PG Monitor\n"
+"POT-Creation-Date: 2012-11-06 09:28-0000\n"
+"PO-Revision-Date: 2012-11-06 09:28-0000\n"
+"Last-Translator: \n"
+"Language-Team: PeoplesGeek\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr__;esc_attr_e;"
+"esc_html__;esc_html_e;_x;_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: monitor-internal.php:11
+msgid "Site Internal Monitoring Page"
+msgstr ""
+
+#: monitor-internal.php:14
+msgid ""
+"This is a page that exists purely to be the target of website monitoring "
+"programs"
+msgstr ""
+
+#: monitor-internal.php:16
+#, php-format
+msgid ""
+"If you are seeing this page then a number of important core components of "
+"the %s website are working"
+msgstr ""
+
+#: monitor-internal.php:17
+#, php-format
+msgid "The current time is %s"
+msgstr ""

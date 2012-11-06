@@ -6,7 +6,7 @@
 echo '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">';
 echo '<html>';
 echo '<head>';
-echo '<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">';
+echo '<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />';
 echo '<title>PeoplesGeek Monitoring Page</title>';
 echo '</head>';
 echo '<body>';
