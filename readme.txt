@@ -3,7 +3,7 @@ Contributors: peoplesgeek
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EEEJAFQMKUQJG
 Tags: monitor, uptime
 Requires at least: 3.2
-Tested up to: 3.4.2
+Tested up to: 3.5
 Stable tag: 1.1.0
 
 A virtual target file to be read by monitoring services instead of using a static HTML page.
